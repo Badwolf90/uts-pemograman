@@ -1,0 +1,135 @@
+/* Reset dasar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Gaya dasar body */
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Gaya Navbar */
+
+.navbar {
+    background-color: #0077b6;
+    color: #fff;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #d2f3ff;
+}
+
+
+/* Judul halaman */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+
+/* Gaya untuk container */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Gaya Kartu untuk Berita */
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+    color: #0077b6;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    color: #555;
+}
+
+
+/* Gaya Tombol */
+
+.btn-primary {
+    background-color: #00aaff;
+    border-color: #00aaff;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0077b6;
+    border-color: #0077b6;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #d2f3ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+
+/* Responsif */
+
+@media (max-width: 768px) {
+    .navbar .navbar-toggler {
+        border-color: #d2f3ff;
+    }
+    .navbar .navbar-toggler-icon {
+        color: #d2f3ff;
+    }
+}
